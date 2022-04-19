@@ -28,5 +28,7 @@
   plt.title('Random Classification Data with 2 classes')
   
  # OUTPUT:
+ ![image](https://user-images.githubusercontent.com/102689666/164060258-8ab94858-ac7c-459e-9a69-52d592c3931c.png)
+
  # RESULT:
   Thus, the Random Classification was successfully implemented using python programming.
