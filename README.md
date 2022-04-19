@@ -21,13 +21,15 @@
 */ 
 
   import matplotlib.pyplot as plt
-  from sklearn import datasets 
-  x,y=datasets.make_blobs(n_samples=100,n_features=2,centers=2,cluster_std=1.05,random_state=2)
-  fig=plt.figure(figsize=(10,8)) 
-  plt.plot(x[:,0][y==0],x[:,1][y==0],'r^') 
-  plt.plot(x[:,0][y==1],x[:,1][y==1],'bs') 
-  plt.xlabel("feature 1") plt.ylabel("feature 2") 
-  plt.title('Random Classification Data with 2 classes')
+  from sklearn import datasets
+  X, y = datasets.make_blobs(n_samples=100,n_features=2,centers=2,cluster_std=1.05,random_state=2)
+  #plotting
+  fig=plt.figure(figsize=(10,8))
+  plt.plot(X[:, 0][y == 0], X[:, 1][y==0], 'r^')
+  plt.plot(X[:, 0][y == 1], X[:, 1][y==1], 'bs')
+  plt.xlabel("feature 1")
+  plt.ylabel("feature 2")
+  plt.title("Random Classification Data with 2 classes")
   
  # OUTPUT:
  ![image](https://user-images.githubusercontent.com/102689666/164060258-8ab94858-ac7c-459e-9a69-52d592c3931c.png)
