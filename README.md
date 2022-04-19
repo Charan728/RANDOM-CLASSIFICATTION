@@ -15,8 +15,10 @@
   4.	Final output is considered based on Majority Voting or Averaging for Classification and regression respectively.
 # PROGRAM:
   /* 
-  Program to implement random classification. 
+  Program to implement random classification.
+  
   Developed by   : ALLA VENKATA CHARAN REDDY
+  
   Register Number : 212219040010 
 */ 
 
